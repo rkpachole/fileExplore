@@ -1,0 +1,55 @@
+{
+    "name": "root",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Documents",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Resume.docx",
+            "type": "file"
+          },
+          {
+            "name": "CoverLetter.docx",
+            "type": "file"
+          }
+        ]
+      },
+      {
+        "name": "Pictures",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Vacation",
+            "type": "folder",
+            "children": [
+              {
+                "name": "photo1.jpg",
+                "type": "file"
+              },
+              {
+                "name": "photo2.jpg",
+                "type": "file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Downloads",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Report.pdf",
+            "type": "file"
+          },
+          {
+            "name": "Presentation.pptx",
+            "type": "file"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.file-explorer {
+  @apply flex flex-wrap h-screen;
+}
+
+.file-tree {
+  @apply w-1/4 bg-gray-100 p-4;
+}
+
+.file-viewer {
+  @apply w-3/4 p-4;
+}
+
+@media (max-width: 600px) {
+  .file-tree, .file-viewer {
+    @apply w-full;
+  }
+}
